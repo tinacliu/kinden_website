@@ -1,0 +1,95 @@
+@import "button.css";
+@import "font-styles.css";
+@import "footer.css";
+@import "form.css";
+@import "lists.css";
+@import "navbar.css";
+
+:root {
+  --op-beige: rgba(237, 227, 218, 0.7);
+  --beige: #FBF5ED;
+  --orange: #DE9344;
+  --dark-gray: #40474E;
+  --mid-gray: #525252;
+  --gray: #BAB9B8;
+  --light-gray: #E5E5E5;
+  --navy: #17415A;
+  --light-beige: #F9F4EF;;
+}
+
+
+body {
+  background-color: var(--light-beige);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: var(--dark-gray);
+  line-height: 1.6;
+}
+
+.whiteblock {
+  background-color: white;
+}
+
+.beigeblock {
+  background-color: var(--op-beige);
+  padding: 24px;
+}
+
+
+.section {
+  padding: 60px;
+}
+
+.section_last {
+  margin-bottom: 40px;
+  padding-bottom: 120px;
+}
+
+
+@media(max-width: 992px) {
+}
+
+
+.heroshot {
+  width: 100%;
+  margin-top: 80px;
+  /*border: solid 2px var(--light-beige);*/
+}
+
+.resize {
+  width: 100%;
+  max-width: 480px;
+  object-fit: cover;
+}
+
+.rectangle_hold {
+  position: relative;
+}
+
+.overlay_box {
+  position: absolute;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  width: 90%;
+  top: -100px;
+  /*right: 0px;*/
+}
+
+
+
+
+@media(max-width: 812px) {
+  .section {
+    padding: 40px 20px;
+  }
+
+
+}
+
+
+@media(max-width: 480px) {
+
+
+}
+
+

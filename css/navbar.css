@@ -1,0 +1,22 @@
+
+/*navbar*/
+
+.navbar-le {
+  justify-content: space-between;
+  background-color: var(--light-beige);
+  margin-bottom: 40px;
+}
+
+.navbar-le .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-le .nav-link {
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  /*color: var(--dark-gray);*/
+}
+
+.navbar-le .navbar-brand img {
+  width: 200px;
+}

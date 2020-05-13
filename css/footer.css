@@ -1,0 +1,20 @@
+.footer {
+  /*background-color: var(--dark-gray);*/
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: var(--navy);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+.footer p {
+  margin: 0px;
+}

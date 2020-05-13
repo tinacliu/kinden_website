@@ -1,0 +1,73 @@
+/*CSS for font sytles*/
+
+h2, h4 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1, h3, h6 {
+  font-family: 'Open Sans', serif;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2, h3, h4 {
+  font-size: 32px;
+}
+
+h4 {
+  color:var(--orange);
+}
+
+h5 {
+  font-size: 18px;
+  color: var(--navy);
+}
+
+h6 {
+  font-size: 20px;
+}
+
+
+.list-item p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: var(--dark-gray);
+}
+
+.highlight {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--op-beige) 65%);
+}
+
+.lighter {
+  font-weight: 300;
+}
+
+.underline {
+  background-color:  var(--orange);
+  margin-left: 24px;
+  width: 400px;
+  height: 2px;
+}
+
+.gray {
+  color: var(--light-gray);
+}
+
+.mid_gray {
+  color: var(--gray);
+}
+
+.beige {
+  color: var(--beige);
+}
+
+
+.ml12 {
+  margin-top: 60px;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+
