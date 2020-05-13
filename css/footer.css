@@ -1,8 +1,8 @@
 .footer {
   background-color: var(--dark-gray);
   color: var(--light-gray);
-  display: flex;
-  justify-content: space-between;
+/*  display: flex;
+  justify-content: space-between;*/
   padding: 24px 32px;
   font-size: 14px;
 }
@@ -21,6 +21,6 @@
 }
 
 .newsletter {
-  min-width: 280px;
+  /*min-width: 280px;*/
 }
 
