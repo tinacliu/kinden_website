@@ -1,5 +1,6 @@
 .footer {
-  /*background-color: var(--dark-gray);*/
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
   display: flex;
   justify-content: space-between;
   padding: 24px 32px;
@@ -18,3 +19,8 @@
 .footer p {
   margin: 0px;
 }
+
+.newsletter {
+  min-width: 280px;
+}
+
